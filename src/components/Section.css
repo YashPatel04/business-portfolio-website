@@ -1,0 +1,34 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 0;
+}
+.blur-effect{
+  filter: blur(10px);
+  transition: filter 2s ease-in-out;
+}
+.visible-text{
+  position: absolute;
+  top: 50%; /* Adjust as necessary */
+  left: 50%; /* Adjust as necessary */
+  transform: translate(-50%, -50%); /* Center the text */
+  z-index: 1; /* Ensure text is above the video */
+  color: white; /* Example text color */
+  animation: fadeIn 3s ease-in-out forwards;
+  
+}
+.invisible-text{
+  position: absolute;
+  visibility: hidden;
+  z-index: -1;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
