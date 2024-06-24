@@ -17,8 +17,15 @@ video {
   z-index: 1; /* Ensure text is above the video */
   color: white; /* Example text color */
   animation: fadeIn 3s ease-in-out forwards;
-  
+  display: flex;
+  align-items: center;
 }
+.visible-text>a{
+  font-size: xx-large;
+  font-weight: bold;
+  margin-right:5px;
+}
+
 .invisible-text{
   position: absolute;
   visibility: hidden;
