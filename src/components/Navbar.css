@@ -33,7 +33,13 @@
   font-style: normal;
   font-size: medium;
 }
+.logo:hover{
+  border: 2px solid white;
   
+  color: black;
+  background-color: white;
+  transition: all 0.35s ease-out;
+} 
   .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
