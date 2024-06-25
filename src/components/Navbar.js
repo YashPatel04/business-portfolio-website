@@ -25,6 +25,7 @@ function Navbar() {
     <nav className='navbar'>
         <div className='navbar-container'>
            <Link to='/' className='navbar-logo'>
+           <a className='logo'>S K MANAGEMENT</a>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
            {click ? <IconArrowLeft className='backArrow'/>:<IconMenu2 className='menu'/>}

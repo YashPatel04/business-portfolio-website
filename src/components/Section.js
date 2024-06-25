@@ -12,7 +12,7 @@ function Section() {
     const currentTime = videoRef.current.currentTime;
     const duration = videoRef.current.duration;
     
-    if (duration - currentTime <= 30) {
+    if (duration - currentTime <= 35) {
       // Apply blur effect (add a CSS class to the video element)
       videoRef.current.classList.add('blur-effect');
       textRef.current.classList.remove('invisible-text');
@@ -24,22 +24,20 @@ function Section() {
     }
   };
   
-
   return(
     <div> 
       <p className='invisible-text' ref={textRef}> <a>Best In Class</a> <TypeWriterEffect 
         textStyle={{}}
-        startDelay={2000}
+        startDelay={10000}
         cursorColor="#fff"
         multiText={[
-          '  Business Management Solutions.',
           ' Gas Stations.',
-          ' Restauraunts',
+          ' Business Management Solutions.',
+          ' Restauraunts.',
           ' Estate Management Solutions.',
         ]}
         multiTextDelay={1000}
         typeSpeed={30}
-        loop = {true}
       /></p>
       <video ref={videoRef} src={video} autoPlay muted onTimeUpdate={handleTimeUpdate}/>
     </div>

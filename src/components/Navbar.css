@@ -9,6 +9,7 @@
     top: 0;
     z-index: 999;
     font-family: Arial, Helvetica, sans-serif;
+    
   }
   
   .navbar-container {
@@ -21,9 +22,16 @@
   
 
 .navbar-logo {
-    background-image: url('D:\skmanagement\react-website\home-app\public\logosk.png');
-    width:200px;
-    height: 50px;;
+    /*background-image: url('D:\skmanagement\react-website\home-app\public\logosk.png');*/
+    text-decoration: none;
+}
+.logo{
+  border:2px solid white;
+  padding : 1vh;
+  font-family: aquire;
+  color: white;
+  font-style: normal;
+  font-size: medium;
 }
   
   .nav-menu {
