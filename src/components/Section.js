@@ -26,7 +26,7 @@ function Section() {
   
   return(
     <div> 
-      <p className='invisible-text' ref={textRef}> <a>Best In Class</a> <TypeWriterEffect
+      <p className='invisible-text' ref={textRef}> <span className='stationary-text'>Best In Class</span> <TypeWriterEffect
         className='typewriter' 
         textStyle={{}}  
         startDelay={10000}

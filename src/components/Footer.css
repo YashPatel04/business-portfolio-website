@@ -160,5 +160,29 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 700px) {
+    .footer-container {
+      font-size: small;
+      padding: 25px; 
+      
+    }
+
+    .footer-link-wrapper, .social-media-wrap {
+      flex-direction: column; 
+      margin-bottom: 10px; 
+      padding-left:2vw;
+      overflow: hidden;
+    }
+    h2{
+      font-size: medium ;
+    }
+    .footer-links {
+      justify-content: center; 
+      margin-bottom: 10px; 
+    }
+  
+    .social-icons {
+      width: 100%;
+      justify-content: center; 
+    }
   }

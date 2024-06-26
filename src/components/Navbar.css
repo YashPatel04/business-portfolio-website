@@ -24,6 +24,7 @@
 .navbar-logo {
   /*background-image: url('D:\skmanagement\react-website\home-app\public\logosk.png');*/
   text-decoration: none;
+  
 }
 .logo{
 border:2px solid white;
@@ -76,6 +77,11 @@ transition: all 0.35s ease-out;
 .menu-icon {
   display: none;
 }
+  @media screen and (min-width: 1900px){
+    .navbar-logo{
+      width:10vw;
+    }
+  }
   
   @media screen and (max-width: 960px) {
     .NavbarItems {
@@ -158,4 +164,14 @@ transition: all 0.35s ease-out;
       color: #242424;
       transition: 250ms;
     }
+  }
+  @media screen and (max-width:960px) {
+    .navbar-logo{
+      margin-top:1vh;
+    }
+    Button{
+      visibility:collapse;
+      
+    }
+    
   }
