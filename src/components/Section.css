@@ -41,3 +41,9 @@ video {
     opacity: 1;
   }
 }
+@media screen and (max-width: 1920px){
+  .visible-text{
+    width:99vw;
+    justify-content: center;
+  }
+}

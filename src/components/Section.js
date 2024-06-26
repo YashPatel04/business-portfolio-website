@@ -26,8 +26,9 @@ function Section() {
   
   return(
     <div> 
-      <p className='invisible-text' ref={textRef}> <a>Best In Class</a> <TypeWriterEffect 
-        textStyle={{}}
+      <p className='invisible-text' ref={textRef}> <a>Best In Class</a> <TypeWriterEffect
+        className='typewriter' 
+        textStyle={{}}  
         startDelay={10000}
         cursorColor="#fff"
         multiText={[
