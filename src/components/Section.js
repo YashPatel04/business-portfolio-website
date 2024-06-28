@@ -32,9 +32,9 @@ function Section() {
         startDelay={10000}
         cursorColor="#fff"
         multiText={[
-          ' Gas Stations.',
           ' Business Management Solutions.',
           ' Restauraunts.',
+          ' Gas Stations.',
           ' Estate Management Solutions.',
         ]}
         multiTextDelay={1000}

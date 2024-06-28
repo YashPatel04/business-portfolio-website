@@ -16,16 +16,16 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
           <Carditem
-              src={mobilImage}
-              text='Mobil Gas Station and Convenience Store'
-              label='Mobil'
-              path='/services'
+              src={office}
+              text='Our Headquarters'
+              label=''
+              path='/'
             />
             <Carditem
               src={amocoImage}
               text='Amoco Gas Station and Convinience Store'
               label=''
-              path='/services'
+              path='/'
             />
           </ul>
           <ul className='cards__items'>
@@ -33,19 +33,19 @@ function Cards() {
               src={bpImage}
               text='BP Gas Station and Convinience Store'
               label=''
-              path='/services'
+              path='/'
             />
             <Carditem
               src={baImage}
               text='Palm Coast Bowling Alley'
               label=''
-              path='/services'
+              path='/'
             />
             <Carditem
-              src={office}
-              text='Our Headquarters'
-              label=''
-              path='/services'
+              src={mobilImage}
+              text='Mobil Gas Station and Convenience Store'
+              label='Mobil'
+              path='/'
             />
           </ul>
         </div>

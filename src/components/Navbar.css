@@ -79,7 +79,7 @@ transition: all 0.35s ease-out;
 }
   @media screen and (min-width: 1900px){
     .navbar-logo{
-      width:10vw;
+      width:10%;
     }
   }
   
@@ -174,4 +174,9 @@ transition: all 0.35s ease-out;
       
     }
     
+  }
+  @media screen and (min-width:1910px){
+    .navbar-logo{
+      width:20%;
+    }
   }
