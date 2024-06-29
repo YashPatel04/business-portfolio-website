@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/business-portfolio-website/static/css/main.28c224fa.css",
-    "main.js": "/business-portfolio-website/static/js/main.9ab35bea.js",
+    "main.css": "/business-portfolio-website/static/css/main.cc638120.css",
+    "main.js": "/business-portfolio-website/static/js/main.bdb718ed.js",
     "static/media/video.mp4": "/business-portfolio-website/static/media/video.7335ded67dd0f24aa387.mp4",
     "static/media/bp.jpg": "/business-portfolio-website/static/media/bp.223d1ca6cb96a631ec70.jpg",
     "static/media/ba.jpg": "/business-portfolio-website/static/media/ba.5052bbe06286078c05d7.jpg",
@@ -9,11 +9,11 @@
     "static/media/amoco 1.jpg": "/business-portfolio-website/static/media/amoco 1.2cb6e1e8e6bdecd39575.jpg",
     "static/media/office.jpg": "/business-portfolio-website/static/media/office.946b10545ad1b1bf9dfd.jpg",
     "index.html": "/business-portfolio-website/index.html",
-    "main.28c224fa.css.map": "/business-portfolio-website/static/css/main.28c224fa.css.map",
-    "main.9ab35bea.js.map": "/business-portfolio-website/static/js/main.9ab35bea.js.map"
+    "main.cc638120.css.map": "/business-portfolio-website/static/css/main.cc638120.css.map",
+    "main.bdb718ed.js.map": "/business-portfolio-website/static/js/main.bdb718ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.28c224fa.css",
-    "static/js/main.9ab35bea.js"
+    "static/css/main.cc638120.css",
+    "static/js/main.bdb718ed.js"
   ]
 }
