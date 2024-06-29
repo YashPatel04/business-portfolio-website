@@ -4,9 +4,10 @@ video {
   height: 100%;
   position: relative;
   z-index: 0;
-  overflow: auto;
 }
-
+body{
+  overflow-x: hidden;
+}
 .blur-effect{
   filter: blur(10px);
   transition: filter 2s ease-in-out;
