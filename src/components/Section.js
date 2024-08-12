@@ -40,7 +40,7 @@ function Section() {
         multiTextDelay={1000}
         typeSpeed={30}
       /></p>
-      <video ref={videoRef} src={video} autoPlay muted onTimeUpdate={handleTimeUpdate}/>
+      <video ref={videoRef} src={video} autoPlay muted playsInline onTimeUpdate={handleTimeUpdate}/>
     </div>
   )
 }
