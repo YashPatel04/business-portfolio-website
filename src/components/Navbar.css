@@ -26,10 +26,11 @@
   text-decoration: none;
   
 }
+@import url('https://fonts.cdnfonts.com/css/aquire');
 .logo{
 border:2px solid white;
 padding : 1vh;
-font-family: aquire;
+font-family: 'Aquire', sans-serif;
 color: white;
 font-style: normal;
 font-size: medium;

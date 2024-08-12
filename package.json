@@ -1,7 +1,7 @@
 {
   "name": "home-app",
   "version": "0.1.0",
-  "homepage": "",
+  "homepage": "https://YashPatel04.github.io/business-portfolio-website/",
   "private": true,
    "dependencies": {
     "@tabler/icons-react": "^3.6.0",
