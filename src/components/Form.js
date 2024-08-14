@@ -1,5 +1,6 @@
 import React from 'react';
 import './Form.css';
+import{IconMapPinFilled,IconPhoneFilled,IconMailFilled} from '@tabler/icons-react';
 import {useForm} from "react-hook-form";
 function Form() {
   const { register, handleSubmit, formState:{errors, isValid} } = useForm({mode: 'onChange',criteriaMode: 'all'});
@@ -11,9 +12,23 @@ function Form() {
       <div className='Tone-1'></div>
       <div className='content'>
         <section className='dialouge'>
+         <div className='talk'> 
         <h2>Talk with our team</h2>
         <br></br>
         <p>Fill out your information and an our representative will reach out to you.</p>
+        </div>
+        <div className='cards'>
+          <a><IconMapPinFilled/><h2>Address</h2></a>
+          <p>577 Barnes Blvd Suite 650, Rockledge, FL, 32955.</p>
+        </div>
+        <div className='cards'>
+          <a><IconPhoneFilled/><h2>Call us</h2></a>
+          <p>+1 386-XXX-XXXX</p>
+        </div>
+        <div className='cards'>
+          <a><IconMailFilled/><h2>E-mail us</h2></a>
+          <p>email@email.com</p>
+        </div>
         </section>
         <div className='form-container'>
         <form onSubmit={handleSubmit(onSubmit)}>
