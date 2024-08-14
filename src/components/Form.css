@@ -3,6 +3,11 @@
     position: relative;
     font-family: '', sans-serif;     
 }
+.asterisk{
+    padding-left:2px;
+    color:red;
+    font-size: small;
+}
 .Tone-1{
     background-color: rgb(238, 235, 234);
     height: 40%;
@@ -39,7 +44,7 @@
     box-shadow: 0 6px 20px rgba(14, 14, 14, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(17, 17, 18, 0.017));
-    border-radius: 3px;
+    border-radius: 4px;
     overflow: hidden;
     text-decoration: none;
     padding:1%;
@@ -49,7 +54,7 @@
 }
 .dialouge{
     width: 20vw;
-    margin-top:4.5%;
+    margin-top:7%;
     margin-left:10%;
 }
 .box{
@@ -59,8 +64,28 @@
     border: 1px solid #909090ba;
     border-radius: 2px;
 }
+label{
+    padding-bottom:2px;
+}
 input:focus, textarea:focus {
     border: 2px solid #909090ba; /* Change border color when input is focused */
     outline: none; /* Remove default outline */
-    box-shadow: 0 0 5px rgba(81, 203, 238, 1); /* Add a subtle shadow */
+    box-shadow: 0 0 5px rgba(146, 146, 223, 0.549); /* Add a subtle shadow */
+}
+#submit{
+    background-color: black;
+    color: whitesmoke;
+    width:95px;
+    height:40px;
+    border-radius:3px;
+    border:none;
+}
+#submit:hover{
+    background-color: #F06A6A;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.549); 
+    transition: all 0.1s ;
+}
+#submit:disabled {
+    background-color: #ccc; /* Gray background for disabled state */
+    cursor: not-allowed; /* Change cursor to indicate disabled state */
 }
