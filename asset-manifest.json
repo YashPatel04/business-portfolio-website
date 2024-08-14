@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/business-portfolio-website/static/css/main.de34dc9d.css",
-    "main.js": "/business-portfolio-website/static/js/main.a3a911fd.js",
+    "main.css": "/business-portfolio-website/static/css/main.e5a708c6.css",
+    "main.js": "/business-portfolio-website/static/js/main.a63aadb0.js",
     "static/media/video.mp4": "/business-portfolio-website/static/media/video.7335ded67dd0f24aa387.mp4",
     "static/media/bp.jpg": "/business-portfolio-website/static/media/bp.223d1ca6cb96a631ec70.jpg",
     "static/media/ba.jpg": "/business-portfolio-website/static/media/ba.5052bbe06286078c05d7.jpg",
@@ -10,11 +10,11 @@
     "static/media/office.jpg": "/business-portfolio-website/static/media/office.946b10545ad1b1bf9dfd.jpg",
     "static/media/sk.png": "/business-portfolio-website/static/media/sk.1861fa90800861d17c7c.png",
     "index.html": "/business-portfolio-website/index.html",
-    "main.de34dc9d.css.map": "/business-portfolio-website/static/css/main.de34dc9d.css.map",
-    "main.a3a911fd.js.map": "/business-portfolio-website/static/js/main.a3a911fd.js.map"
+    "main.e5a708c6.css.map": "/business-portfolio-website/static/css/main.e5a708c6.css.map",
+    "main.a63aadb0.js.map": "/business-portfolio-website/static/js/main.a63aadb0.js.map"
   },
   "entrypoints": [
-    "static/css/main.de34dc9d.css",
-    "static/js/main.a3a911fd.js"
+    "static/css/main.e5a708c6.css",
+    "static/js/main.a63aadb0.js"
   ]
 }
