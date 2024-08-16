@@ -8,7 +8,7 @@ function Form() {
   const { register, handleSubmit, formState:{errors, isValid} } = useForm({mode: 'onChange',criteriaMode: 'all'});
   const onSubmit = async (data) => {
     try {
-      const response = await fetch('http://localhost:4000/email', {  // Adjust the URL if your backend is hosted elsewhere
+      const response = await fetch('/api/email', {  
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
