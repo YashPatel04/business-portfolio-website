@@ -65,7 +65,7 @@ async function sendMail({ firstName, lastName, phone, email, message }) {
 module.exports = { sendMail };
 
 // POST route to handle form submission
-app.post('/email', async (req, res) => {
+app.post('/api/email', async (req, res) => {
     const { firstName, lastName, phone, email, message } = req.body;
     try {
         console.log('Received data:', req.body); // Log the incoming request body
@@ -78,7 +78,7 @@ app.post('/email', async (req, res) => {
 });
 
 // Start the server
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
