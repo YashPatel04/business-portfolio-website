@@ -55,7 +55,7 @@
 .talk{
     margin-top:5%;
 }
-.cards{
+.cardis{
     background-color: whitesmoke;
     border:1.5px solid rgba(108, 108, 108, 0.225);
     border-radius: 4px;
@@ -67,7 +67,7 @@
     flex-direction: column;
     justify-content: space-around;
 }
-.cards:hover{
+.cardis:hover{
     box-shadow: 0 6px 20px rgba(14, 14, 14, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(17, 17, 18, 0.017));
@@ -86,7 +86,7 @@
     border: 1px solid #909090ba;
     border-radius: 2px;
 }
-.cards>a{
+.cardis>a{
     display: flex;
     gap:10px;
 }
