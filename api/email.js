@@ -1,14 +1,6 @@
 require('dotenv').config();
-const express = require('express');
 const nodemailer = require('nodemailer');
 const { google } = require('googleapis');
-const cors = require('cors');
-
-
-const app = express();
-app.use(express.json());
-app.use(cors());
-
 
 // OAuth2 Setup
 const oAuth2Client = new google.auth.OAuth2(
@@ -39,7 +31,7 @@ async function sendMail({ firstName, lastName, phone, email, message }) {
         });
 
         const mailOptions = {
-            from:  'Yash Patel <ydevelop2024@gmail.com>',
+            from: 'Yash Patel <ydevelop2024@gmail.com>',
             to: 'jdgt.yp.2004@gmail.com',
             subject: 'New Business Inquiry',
             text: `You have a new contact form submission from ${firstName} ${lastName}.\n\nPhone: ${phone}\nEmail: ${email}\n\nMessage: ${message}`,
@@ -61,24 +53,19 @@ async function sendMail({ firstName, lastName, phone, email, message }) {
     }
 }
 
-// Export the sendMail function
-module.exports = { sendMail };
-
-// POST route to handle form submission
-app.post('/api/email', async (req, res) => {
-    const { firstName, lastName, phone, email, message } = req.body;
-    try {
-        console.log('Received data:', req.body); // Log the incoming request body
-        const result = sendMail({ firstName, lastName, phone, email, message });
-        console.log('Email sent successfully');
-        res.status(200).send('Email sent successfully');
-    } catch (error) {
-        res.status(500).send('Error sending email');
+// Serverless function handler
+module.exports = async (req, res) => {
+    if (req.method === 'POST') {
+        const { firstName, lastName, phone, email, message } = req.body;
+        try {
+            console.log('Received data:', req.body); // Log the incoming request body
+            const result = await sendMail({ firstName, lastName, phone, email, message });
+            console.log('Email sent successfully');
+            res.status(200).send('Email sent successfully');
+        } catch (error) {
+            res.status(500).send('Error sending email');
+        }
+    } else {
+        res.status(405).send('Method Not Allowed');
     }
-});
-
-// Start the server
-const PORT = process.env.PORT || 4000;
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-});
+};

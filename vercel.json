@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "/package.json",
+        "src": "package.json",
         "use": "@vercel/static-build",
         "config": {
           "distDir": "build"
         }
       },
       {
-        "src": "/api/email.js",
+        "src": "api/email.js",
         "use": "@vercel/node"
       }
     ],
@@ -24,4 +24,5 @@
       }
     ]
   }
+  
   
