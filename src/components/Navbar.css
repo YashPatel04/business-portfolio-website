@@ -20,7 +20,9 @@
   max-width: 1500px;
 }
 
-
+#Cont{
+  display: none;
+}
 .navbar-logo {
   /*background-image: url('D:\skmanagement\react-website\home-app\public\logosk.png');*/
   text-decoration: none;
@@ -85,6 +87,9 @@ transition: all 0.35s ease-out;
   }
   
   @media screen and (max-width: 960px) {
+    #Cont{
+      display:block;
+    }
     .NavbarItems {
       position: relative;
     }

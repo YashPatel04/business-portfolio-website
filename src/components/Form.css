@@ -115,3 +115,42 @@ input:focus, textarea:focus {
     background-color: #ccc; /* Gray background for disabled state */
     cursor: not-allowed; /* Change cursor to indicate disabled state */
 }
+@media screen and (max-width:960px){
+    .form-container{
+        height: auto;
+        width: 55vw;
+    }
+    .box{
+        width:49vw;
+    }
+    #submit{
+        visibility: visible;
+        background-color: black;
+        color: whitesmoke;
+        width: 95px;
+        height: 40px;
+        border-radius: 3px;
+        border: none;
+    }
+}
+@media screen and (max-width:760px) {
+  .cardis{
+    display: none;
+  } 
+  
+  .talk{
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 0;
+    width: 80vw;
+  } 
+  .content{
+    flex-direction: column;
+  }
+  .form-container{
+    width: 80vw;
+  }
+  .box{
+    width:74vw;
+    }
+}
