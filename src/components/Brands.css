@@ -1,0 +1,20 @@
+.slick-dots li button:before {
+    color: black !important;
+  }
+.slick-slide {
+    padding: 0; /* Adjust the padding value as needed */
+}
+.slick-list {
+    margin: 0; /* Adjust the margin value to match the padding */
+}
+.carousel{
+    width:80vw;
+    margin:2vw;
+    display: flex;
+    align-items: flex-start;
+}
+.carousel img{
+    width: 100px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit:contain; 
+}

@@ -110,10 +110,22 @@
     .cards__items {
       display: flex;
     }
+    
   }
   
   @media only screen and (max-width: 1024px) {
     .cards__item {
-      margin-bottom: 2rem;
+      margin-bottom: 2rem;  
+    }
+    .brands {
+      width: 100%; /* Ensure it fits within the viewport */
+      margin: 0 auto; /* Center horizontally */
+      align-items: center; /* Center vertically */
+      overflow: hidden; /* Prevent overflow */
     }
   }
+  .Brands{
+    margin:4rem 6rem;
+    margin-top: 2rem;
+  }
+  

@@ -175,7 +175,7 @@ transition: all 0.35s ease-out;
     .navbar-logo{
       margin-top:1vh;
     }
-    Button{
+    .cntct{
       visibility:collapse;
       
     }

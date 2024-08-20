@@ -4,6 +4,7 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import{ IconBrandMeta,IconBrandX,IconBrandInstagram,IconBrandLinkedin } from '@tabler/icons-react';
 function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <div className='footer-container'>
        <div class='footer-links'>
@@ -72,7 +73,7 @@ function Footer() {
           </div>
         </div>
       </section>
-      <small class='website-rights'>All Rights Reserved, skmanagement © 2024</small>
+      <small class='website-rights'>Copyright © {currentYear} SK Management | All Rights Reserved</small>
     </div>
   )
 }

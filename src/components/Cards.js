@@ -7,6 +7,7 @@ import amocoImage from './images/amoco 1.jpg';
 import bpImage from './images/bp.jpg';
 import baImage from './images/ba.jpg';
 import office from './images/office.jpg';
+import Brands from './Brands.js';
 
 function Cards() {
   return (
@@ -50,6 +51,7 @@ function Cards() {
           </ul>
         </div>
       </div>
+      <section className='Brands'><Brands /></section>
     </div>
   );
 }
